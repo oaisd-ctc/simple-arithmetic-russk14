@@ -46,7 +46,7 @@ public class Program
         Console.WriteLine("Calculating Result...!");
         Console.WriteLine("The product of " + firstMult + " x " + secondMult + " is " + product + "!");
 
-        // Division
+        // Decimal Division
 
         Console.WriteLine("Dreaded divison... Provide a number to be divided by: ");
         float firstDiv = float.Parse(Console.ReadLine());
@@ -58,6 +58,37 @@ public class Program
 
         Console.WriteLine("Calculating Result...!");
         Console.WriteLine("The product of " + firstDiv + " / " + secondDiv + " is " + quotient + "!");
+
+        // Integer Division
+
+        Console.WriteLine("How about we try some division without those decimal results?");
+
+        Console.WriteLine("Provide the first integer for integer division!: ");
+        int firstInt = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Provide the second integer as the divisor: ");
+        int secondInt = int.Parse(Console.ReadLine());
+
+        int intQuotient = firstInt / secondInt;
+
+        Console.WriteLine("Calculating Result...!");
+        Console.WriteLine("The quotient for the integer division of " + firstInt + " by " + secondInt + " is " + intQuotient + "!");
+
+        // Modulo
+
+        Console.WriteLine("How about we try a CSS special... Modulus!");
+        
+        Console.WriteLine("Provide the first number to see if the second number will go in perfectly!: ");
+        int firstMod = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Provide the second number to mod by: ");
+        int secondMod = int.Parse(Console.ReadLine());
+
+        int modResult = firstMod % secondMod;
+
+        Console.WriteLine("Calculating Result...!");
+        Console.WriteLine("The modulus result of " + firstMod + " mod " + secondMod + " is " + modResult + "!");
+
 
     }
 }
