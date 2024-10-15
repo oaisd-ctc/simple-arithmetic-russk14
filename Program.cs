@@ -38,7 +38,7 @@ public class Program
         Console.WriteLine("More difficult calculations! Provide a number to multiply: ");
         float firstMult = float.Parse(Console.ReadLine());
 
-        Console.WriteLine("Provide the second co-efficient to multiply with: ");
+        Console.WriteLine("Provide the second co-efficient to multiply " + firstMult + " by: ");
         float secondMult = float.Parse(Console.ReadLine());
 
         float product = firstMult * secondMult;
@@ -51,7 +51,7 @@ public class Program
         Console.WriteLine("Dreaded divison... Provide a number to be divided by: ");
         float firstDiv = float.Parse(Console.ReadLine());
 
-        Console.WriteLine("Provide the second value as the divisor to divide the first number: ");
+        Console.WriteLine("Provide the second value as the divisor to divide " + firstDiv + " by: ");
         float secondDiv = float.Parse(Console.ReadLine());
 
         float quotient = firstDiv / secondDiv;
@@ -66,7 +66,7 @@ public class Program
         Console.WriteLine("Provide the first integer for integer division!: ");
         int firstInt = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("Provide the second integer as the divisor: ");
+        Console.WriteLine("Provide the second integer as the divisor of " + firstInt + ":");
         int secondInt = int.Parse(Console.ReadLine());
 
         int intQuotient = firstInt / secondInt;
@@ -81,7 +81,7 @@ public class Program
         Console.WriteLine("Provide the first number to see if the second number will go in perfectly!: ");
         int firstMod = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("Provide the second number to mod by: ");
+        Console.WriteLine("Provide the second number to mod " + firstMod + " by: ");
         int secondMod = int.Parse(Console.ReadLine());
 
         int modResult = firstMod % secondMod;
